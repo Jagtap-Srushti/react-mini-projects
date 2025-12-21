@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  
+  height: 100%;
+  width: 100%;
+  background-color: #F7F7F7;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.parent{
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+  
+}
+
+.card{
+  height: 280px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 5px 12px rgba(86, 85, 85, 0.1);
+  cursor: pointer;
+
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+
+}
+.top img{
+
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 3px;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  color: #dadada;
+  font-size: 12px;
+  padding:3px 5px;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.top button:hover{
+  background: #f2f2f2;
+   transform: scale(1.05);
+   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.center{
+  display: grid;
+  gap: 7px;
+  
+}
+.center h3{
+  font-size: 17px;
+  font-weight: 500;
+
+}
+.center h3 span {
+  font-size: 10px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.center h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.center .tag{
+  display: flex;
+  gap: 10px;
+}
+
+.center .tag h4{
+  background-color: #dadada;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 3px 5px;
+  border: none;
+
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #e6e3e3;
+  padding: 10px 0px;
+}
+
+.bottom button{
+background-color: #111;
+color: white;
+padding: 7px 12px;
+border: none;
+border-radius: 5px;
+font-weight: 500;
+cursor: pointer;
+}
+
+.bottom button:hover{
+   transform: scale(1.05);
+   box-shadow: 0 4px 12px rgba(0,0,0,0.20);
+}
+
+.bottom h3{
+  font-size: 17px;
+  font-weight: 600;
+}
+.bottom p{
+  font-size: 12px;
+  color: #8b8b8b;
+}

@@ -1,0 +1,83 @@
+/* General Layout */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card Design */
+.card {
+  background: #ffffff;
+  padding: 35px 40px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 350px;
+  animation: fadeInUp 0.4s ease-out;
+}
+
+/* Title */
+.title {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  color: #444;
+  font-weight: 600;
+}
+
+/* Number Display */
+.value {
+  font-size: 4rem;
+  margin: 0;
+  color: #222;
+  font-weight: bold;
+}
+
+/* Buttons Layout */
+.btn-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+/* Buttons Styling */
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #4b9eee;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background: #2176d2;
+  transform: translateY(-2px);
+}
+
+/* Reset Button Color */
+.reset {
+  background: #f44336;
+}
+
+.reset:hover {
+  background: #d32f2f;
+  transform: translateY(-2px);
+}
+
+/* Fade Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

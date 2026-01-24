@@ -25,28 +25,27 @@ localStorage.setItem('User', 'XYZ');
 If storing an object, convert it into a string using JSON:
 
 localStorage.setItem('user', JSON.stringify({ name: 'ABC' }));
-
-###2️⃣ **localStorage.getItem(key)**
+```
+### 2️⃣ **`localStorage.getItem(key)`**
 
 Retrieves data stored under the given key.
-
+```js
 const user = localStorage.getItem('User');
-
-
+````
 If the data was stored as an object, convert it back:
-
+```js
 const userObj = JSON.parse(localStorage.getItem('user'));
-
-###3️⃣ **localStorage.removeItem(key)**
+````
+### 3️⃣ **`localStorage.removeItem(key)`**
 
 Removes a specific item.
-
+```js
 localStorage.removeItem('User');
-
-###4️⃣ **localStorage.clear()**
+```
+### 4️⃣ **localStorage.clear()**
 
 Clears all local storage data.
-
+```js
 localStorage.clear();
-
+```
 Use carefully — it deletes everything stored in localStorage.

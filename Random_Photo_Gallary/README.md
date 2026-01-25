@@ -24,8 +24,8 @@ Includes **premium card design**, **hover effects**, **fade animations**, **skel
 ## 🚀 Demo
 
 <img src="src/assets/UIimage1.png" alt="Notes UI Preview" width="800"/>
-<img src="src/assets/UIimage1.png" alt="Notes UI Preview" width="800"/>
-<img src="src/assets/UIimage1.png" alt="Notes UI Preview" width="800"/>
+<img src="src/assets/UIimage2.png" alt="Notes UI Preview" width="800"/>
+<img src="src/assets/UIimage3.png" alt="Notes UI Preview" width="800"/>
 ---
 
 ## 🛠️ Tech Stack

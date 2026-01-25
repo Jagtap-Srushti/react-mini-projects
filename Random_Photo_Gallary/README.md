@@ -37,5 +37,9 @@ Includes **premium card design**, **hover effects**, **fade animations**, **skel
 
 ---
 
-## 📂 Project Structure
+## 📌 Usage
 
+- Scroll through the grid to see random images.
+- Hover over cards to see author info and smooth zoom effect.
+- Click on a card to open the fullscreen modal viewer.
+- Use Prev / Next buttons to navigate pages.
